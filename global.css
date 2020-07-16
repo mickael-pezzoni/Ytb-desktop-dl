@@ -1,0 +1,70 @@
+#form-ytb{
+    position: absolute;
+    top: 20%;
+    left: 49%;
+    width: 550px;
+    transform: translate(-50%, 50%);
+}
+#btnSearch{
+  margin-top: 6px;
+  border-radius: 77% / 50%;
+}
+
+input[type="text"] {
+    width: 400px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+.hide{
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#loading{
+    margin-top: 50px;
+}
+
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: black transparent black transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
